@@ -14,19 +14,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="generateAdvice.js"></script>
 </head>
 <body>
 
     <main class="advice-container">
-        <p id="" class="advice-id">Advice #117</p>
-        <p id="" class="advice-text">It is easy to sit up and take notice, what&rsquo;s difficult is getting up and taking action.</p>
+        <p id="adviceId" class="advice-id">Advice #117</p>
+        <p id="adviceText" class="advice-text">It is easy to sit up and take notice, what&rsquo;s difficult is getting up and taking action.</p>
 
         <picture>
             <source srcset="/images/pattern-divider-desktop.svg" media="(min-width: 550px)">
             <img src="/images/pattern-divider-mobile.svg" alt="">
         </picture>
 
-        <button class="generate-button">
+        <button id="generateBtn" class="generate-button">
             <svg focusable="false" aria-hidden="true" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg>
             <span class="visually-hidden">Generate advice</span>
         </button>
